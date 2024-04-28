@@ -1,0 +1,390 @@
+
+/* CARD GENERAL */
+
+.gallery-card-box,
+.card-box-b,
+.teams-card-box {
+position: relative;
+overflow: hidden;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.gallery-card-box .img-a,
+.gallery-card-box .img-b,
+.card-box-b .img-a,
+.card-box-b .img-b,
+.teams-card-box .img-d {
+transition: .8s all ease-in-out;
+}
+
+.card-overlay {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+
+.card-shadow {
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.card-shadow:before {
+content: ' ';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: 1;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
+}
+
+
+/*------/ Overlay /------*/
+
+.overlay-a {
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 27%, rgba(0, 0, 0, 0.65) 90%);
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0px;
+padding: 0;
+height: 100%;
+width: 100%;
+}
+
+
+/* Our Projects */
+.featured-list, .featured-list p {
+list-style-type: circle;
+color: #080e3b;
+margin:15px 0 15px 18px;
+font: 15px 'Montserrat','DIN';
+}
+
+#features h3{
+font: 15px 'poppins','';
+}
+
+#features{
+background-color: #efbd24;
+text-align: center;
+}
+
+
+/* OUR PROJECTS */
+
+.card-overlay-a-content {
+transition: all .5s ease-in;
+position: absolute;
+width: 100%;
+bottom: 70px;
+z-index: 2;
+height: 100%;
+}
+
+.project-card-header {
+padding: 0 1rem;
+position: relative;
+top:280px;
+}
+
+.project-card-header .project-card-title {
+color: #080e3b;
+margin-bottom: 0;
+padding-bottom: .7rem;
+font: 30px 'POPPINS','Montserrat';
+}
+
+.project-card-title:hover {
+color: #080e3b;
+margin-bottom: 0;
+padding-bottom: .7rem;
+font: 32px 'POPPINS','Montserrat';
+}
+
+.project-card-header .project-card-title span{
+font-size: 15px;
+color: #000000;
+background-color: #fff;
+padding:0 7px;
+border-radius: 8px;
+font-weight:400;
+}
+
+.project-card-header .project-card-title a {
+color: #080e3b;
+text-decoration: none;
+font-weight: 700;
+font-size: 18px;
+background-color: #efbd24;
+padding:2px 10px;
+border-radius: 7px;
+}
+
+.card-body-a {
+z-index: 2;
+transition: all .5s ease-in;
+padding: 0rem 1rem 2rem 1rem;
+}
+
+.card-body-a .price-box {
+padding-bottom: .5rem;
+}
+
+.price-a {
+color: #080e3b;
+padding: .6rem .8rem;
+border: 2px solid #080e3b;
+border-radius: 50px;
+text-transform: uppercase;
+letter-spacing: 0.030em;
+}
+
+.card-footer-text {
+width: 100%;
+position: absolute;
+z-index: 2;
+background-color: #efbd24;
+top: 390px;
+}
+
+.card-info {
+list-style: none;
+margin-bottom: 0;
+padding: .5rem 0;
+}
+
+.card-info .card-info-title,.card-info {
+font:15px 'Montserrat','DIN';
+text-align: center;
+color: #080e3b;
+font-weight: 700;
+}
+
+.card-info li span {
+color: #080e3b;
+font-weight: 700;
+}
+.card-info li{
+border: 1px solid #080e3b;
+padding: 2px;
+border-radius: 8px;
+}
+
+/*------/ Property Grid /-----*/
+
+.property-grid .grid-option {
+text-align: right;
+margin-bottom: 2rem;
+}
+
+.property-grid .col-md-3, .property-grid .col-md-4{
+margin-bottom: 30px;
+}
+
+.property-grid .grid-option .custom-select {
+border-radius: 0;
+width: 200px;
+border-color: #080e3b;
+}
+
+.property-grid .grid-option .custom-select:hover,
+.property-grid .grid-option .custom-select:active,
+.property-grid .grid-option .custom-select:focus {
+border-color: #080e3b;
+}
+
+.property-grid .grid-option .custom-select option {
+border-color: #080e3b;
+}
+
+/*------/ Property Single /-----*/
+
+.property-single .property-price{
+margin-bottom:12px ;
+}
+
+.single-property{
+width: 30%;
+}
+
+/*.amenities-list{*/
+/*margin-left: 20px;*/
+/*}*/
+
+.gallery-card-box,
+.card-box-b,
+.teams-card-box {
+position: relative;
+overflow: hidden;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+height: 350px;
+border-radius: 10px;
+}
+
+.gallery-card-box .img-a,
+.gallery-card-box .img-b,
+.card-box-b .img-a,
+.card-box-b .img-b,
+.teams-card-box .img-d {
+transition: .8s all ease-in-out;
+}
+.gallery-property {
+margin-bottom: 3rem;
+}
+
+.property-price {
+margin: 0 auto;
+}
+
+.property-price .card-header-c {
+padding: 0;
+}
+
+.summary-list {
+    margin-top: 20px;
+color: #000000;
+}
+
+.summary-list .list {
+padding: 0;
+line-height: 2;
+}
+
+.summary-list .list span {
+color: #555555;
+}
+
+.property-agent .title-maingent {
+font-weight: 600;
+}
+
+.property-agent ul {
+line-height: 2;
+color: #000000;
+}
+
+.property-agent .social-media {
+text-align: center;
+}
+
+
+/* Hovering on video images teams projects */
+@media(max-width: 450px){
+.gallery-card-box:hover .img-a,
+.gallery-card-box:hover .img-b,
+.card-box-b:hover .img-a,
+.card-box-b:hover .img-b,
+.teams-card-box:hover .img-d {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.videos-content .gallery-card-box:hover .img-a{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.videos-content{
+  margin-bottom: 60px;
+}
+
+.gallery-card-box:hover .card-overlay-a-content {
+  bottom: 60px;
+}
+
+.gallery-card-box:hover .card-body-a {
+  padding-bottom: 1rem;
+}
+}
+
+@media (min-width: 768px) {
+.gallery-card-box:hover .img-a,
+.gallery-card-box:hover .img-b,
+.card-box-b:hover .img-a,
+.card-box-b:hover .img-b,
+.teams-card-box:hover .img-d {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.videos-content .gallery-card-box:hover .img-a{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.gallery-card-box:hover .card-overlay-a-content {
+  bottom: 149px;
+}
+
+.gallery-card-box:hover .card-body-a {
+  padding-bottom: 1rem;
+}
+}
+
+/*------/ Nav Pills  /------*/
+
+.nav-pills-a.nav-pills .nav-link {
+  color: #000000;
+  position: relative;
+  font-weight: 600;
+}
+
+.nav-pills-a.nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
+.nav-pills-a.nav-pills .nav-link.active:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background-color: #ee0202;
+  z-index: 2;
+}
+.title-single{
+    background-color: #000632;
+    color: #efbd24;
+    padding: 8px 15px;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.pdf button{
+    border-radius: 10px;
+}
+.pdf a{
+  font:18px 'montserrat';
+  padding: 5px 10px;
+  color: #efbd24;
+  background-color: #000632;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;border-radius: 10px;
+}
+.pdf i{
+  font-size:35px;
+  color: red;
+  margin-right: 10px;
+}
+.soldOut{
+  color: white;
+  background-color: red;
+  padding: 2px 8px ;
+  font: 15px 'poppins';
+  width: fit-content;
+  border-radius: 0 5px 5px 0;
+  text-align: center;
+}

@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "Baskerville";
+    src: url('http://wagles.in/_assets/fonts/Baskerville.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Baskerville";
+    src: url('http://wagles.in/_assets/fonts/Baskerville-SemiBold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Baskerville";
+    src: url('http://wagles.in/_assets/fonts/Baskerville-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face{
+    font-family: "DIN";
+    src: url('http://wagles.in/_assets/fonts/din2014regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url('http://wagles.in/_assets/fonts/montserrat.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Webfont";
+    src: url('http://wagles.in/_assets/fonts/fontawesome-webfont.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Poppins";
+    src: url('http://wagles.in/_assets/fonts/Poppins-Thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
